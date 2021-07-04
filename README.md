@@ -2,7 +2,7 @@
 Update the status of order
 
 1)sample end point and request
-PUT: http://localhost:8084/v1/updateOrderStatus/7001
+PUT: http://localhost:8084/v1/updateOrderStatus/{7001}
 request: {
 "orderStatus":"placed/wip/completed"
 }
